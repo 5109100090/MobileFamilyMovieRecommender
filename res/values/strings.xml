@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Family Movie Recommender</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_in">Sign In</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    
+    <string name="userName">Username</string>
+    <string name="userPassword">Password</string>
+    <string name="userPassword2">Retype Password</string>
+    <string name="buttonLogin">Sign In</string>
+    <string name="buttonRegister">Sign Up</string>
+    <string name="linkToRegister">New user? Register here</string>
+    
+	<string name="textViewTitle">Movie Title</string>
+	<string name="textViewGenre">Genre</string>
+	<string name="textViewRating">Rating</string>
+	<string name="textViewYear">Published Year</string>
+	<string name="buttonSearch">Search</string>
+	
+	<string name="textViewCinema">Cinema</string>
+	<string name="textViewDate">Date</string>
+	<string name="textViewSession">Session</string>
+	
+	<string name="buttonConfirm">Show sessions</string>
+	
+	<string name="facebook_app_name">Family Movie Recommender</string>
+	<string name="app_id">831512186932743</string>
+	
+</resources>

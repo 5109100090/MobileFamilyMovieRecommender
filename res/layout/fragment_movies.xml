@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dip" >
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewTitle"/>
+
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginTop="5dip"
+            android:hint="@string/textViewTitle" />
+
+        <View
+            android:id="@+id/separator1"
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp"
+		    android:background="@android:color/darker_gray"
+		    android:layout_marginTop="30dip"
+		    android:layout_marginBottom="30dip"
+		    android:layout_below="@id/editTextTitle"/>
+        
+        <TextView
+            android:id="@+id/textViewGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/separator1"
+            android:layout_marginTop="5dip"
+            android:text="@string/textViewGenre" />
+
+        <Spinner
+            android:id="@+id/spinnerGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewGenre"
+            android:layout_marginTop="5dip"
+            android:entries="@array/spinnerGenreEntries"
+            android:prompt="@string/textViewGenre" />
+
+        <TextView
+            android:id="@+id/textViewRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnerGenre"
+            android:layout_marginTop="5dip"
+            android:text="@string/textViewRating" />
+        
+        <Spinner
+            android:id="@+id/spinnerRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewRating"
+            android:layout_marginTop="5dip"
+            android:entries="@array/spinnerRatingEntries"
+            android:prompt="@string/textViewGenre" />
+
+        <TextView
+            android:id="@+id/textViewYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnerRating"
+            android:layout_marginTop="5dip"
+            android:text="@string/textViewYear" />
+
+        <Spinner
+            android:id="@+id/spinnerYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewYear"
+            android:layout_marginTop="5dip"
+            android:prompt="@string/textViewYear" />
+
+        <Button
+            android:id="@+id/buttonSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnerYear"
+            android:layout_marginTop="20dip"
+            android:text="@string/buttonSearch" />
+    </RelativeLayout>
+
+</RelativeLayout>

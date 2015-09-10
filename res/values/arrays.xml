@@ -1,0 +1,29 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<resources>
+	<array name="menus_array">
+	    <item>Home</item>
+		<item>Movies</item>
+		<item>Cinemas</item>
+		<item>History</item>
+		<item>Sign Out</item>
+	</array>
+	
+	<array name="spinnerRatingEntries">
+	    <item>Select</item>
+	    <item>G</item>
+		<item>PG</item>
+		<item>M</item>
+	</array>
+	
+	<array name="spinnerGenreEntries">
+	    <item>Select</item>
+	    <item>Adventure</item>
+		<item>Animation</item>
+		<item>Comedy</item>
+		<item>Drama</item>
+	</array>
+	
+	<array name="spinnerSessionEntries">
+	    <item>Select</item>
+	</array>
+</resources>
